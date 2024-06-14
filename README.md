@@ -24,8 +24,8 @@ If the measured data provide values inconsistent with the established relationsh
 ## How do you run it
 
 ### On the smartphone running Sensor Logger
-- Edit the settings for "Data Streaming" according to [this picture](sensorlogger_data_streaming.jpg) with your URL (EXCLUDING the port), the username and the password obtained by HiveMQ.
-- Edit the setting for "Sampling Frequency" according to [this picture](sensorlogger_sampling_frequency.jpg).
+- Edit the settings for "Data Streaming" according to [this picture](sensor_logger_data_streaming.jpg) with your URL (EXCLUDING the port), the username and the password obtained by HiveMQ.
+- Edit the setting for "Sampling Frequency" according to [this picture](sensor_logger_sampling_frequency.jpg).
 - Hit "Start Recording"
 
 ### On the PC running node-red
