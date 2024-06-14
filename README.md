@@ -11,7 +11,7 @@ If the measured data provide values inconsistent with the established relationsh
 ## Software required
 - [node-red](https://nodered.org/) (on the PC) with the following:
   - node-red-dashboard
-  - -node-red-contrib-web-worldmap
+  - node-red-contrib-web-worldmap
 - [Sensor Logger](https://www.tszheichoi.com/sensorlogger) (on the phone)
 
 ## Free online accounts required
@@ -19,4 +19,4 @@ If the measured data provide values inconsistent with the established relationsh
 - [OpenWeatherMap](https://openweathermap.org/)
 
 ## HiveMQ setup
-Create an account and obtain a cluster serverless URL [see image](account.huvemq.png)
+Create an account and obtain a cluster serverless URL [see image](account_hivemq.png)
