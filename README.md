@@ -12,11 +12,11 @@ If the measured data provide values inconsistent with the established relationsh
 - [node-red](https://nodered.org/) (on the PC) with the following:
   - node-red-dashboard
   - node-red-contrib-web-worldmap
-- [Sensor Logger](https://www.tszheichoi.com/sensorlogger) (on the phone)
+- [Sensor Logger](https://www.tszheichoi.com/sensorlogger) (on the phone) with the payed features for using MQTT
 
 ## Free online accounts required
 - [HiveMQ](https://www.hivemq.com/)
 - [OpenWeatherMap](https://openweathermap.org/)
 
-## HiveMQ setup
-Create an account and obtain a cluster serverless URL [see image](account_hivemq.png)
+On HiveMQ, reate a free account and obtain a cluster serverless URL [see image](account_hivemq.png).
+On OpenWeatherMap, create a free account and obtain an API key [see image](account_openweathermap.png).
