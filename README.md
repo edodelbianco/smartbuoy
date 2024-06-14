@@ -1,8 +1,8 @@
 # Smart Buoy
 
 Smart Buoy is an IoT system to measure the wave height and compare it with weather forecasts.
-A buoy, equipped with a smartphone, is deployed at sea. It streams data about its location and the accelleration to which it is subject due to the waves.
-A PC records the data anc compares it with the weather forecasts.
+A buoy is equipped with a smartphone and deployed at sea. The smartphone streams data about its location and the acceleration to which the buoy is subject due to the waves.
+A PC records the data and compares it with the weather forecasts.
 
 The project is under development.
 
