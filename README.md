@@ -34,7 +34,9 @@ If the measured data provide values inconsistent with the established relationsh
 - In [node-red](http://127.0.0.1:1880/), import the [flow provided](flow.json)
 - Setup the "MQTT stream" node setup to add a new MQTT server with your URL (including the port), the username and the password obtained by HiveMQ (see [Picture 1](nodered_mqttin_hivemq_1.png), [Picture 2](nodered_mqttin_hivemq_2.png), [Picture 3](nodered_mqttin_hivemq_3.png) and [Picture 4](nodered_mqttin_hivemq_4.png). Be careful that everything is configured as shown in the pictures, download if needed a new TLS CA certificate [isrgrootx1.pem](isrgrootx1.pem).
 - Setup the "Smart Buoy in the map" node with your API key.
-- [Open the UI](http://127.0.0.1:1880/ui) and see the [magic](nodered_ui.png) happen!
+- [Open the UI](http://127.0.0.1:1880/ui) and see the magic happen!
+
+<img width="80%" src="nodered_ui.png">
 
 ## What happens when you run it
 The data from the IMU and the GPS on the phone are streamed by Sensor Logger to node-red through the MQTT broker HyveMQ.
