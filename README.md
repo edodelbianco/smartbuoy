@@ -6,7 +6,7 @@ A PC records the data anc compares it with the weather forecasts.
 
 The project is under development.
 
-### Applications
+## Applications
 If a data analysis is performed, a relationship can be established between waves monitored by the IMU and wave height provided by the forecast.
 If the measured data provide values inconsistent with the established relationship, it means that the natural waves have been altered (e.g. due to powerboat passage effects) or that the forecast is not correct.
 
@@ -27,7 +27,7 @@ If the measured data provide values inconsistent with the established relationsh
 - Edit the settings for "Data Streaming" according to [this picture](sensorlogger_data_streaming.png) with your URL (EXCLUDING the port), the username and the password obtained by HiveMQ.
 - Edit the setting for "Sampling Frequency" according to [this picture](sensorlogger_sampling_frequency).
 - Hit "Start Recording"
-- 
+
 ### On the PC running node-red
 - On HiveMQ, create a free account and obtain a cluster serverless ([see image](account_hivemq_1.png)), copy its TLS MQTT URL ([see image](account_hivemq_2.png)), and create credentials ([see image](account_hivemq_3.png)).
 - On OpenWeatherMap, create a free account and obtain an API key ([see image](account_openweathermap.png)).
