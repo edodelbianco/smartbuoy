@@ -22,18 +22,19 @@ If the measured data provide values inconsistent with the established relationsh
 - A free account on [OpenWeatherMap](https://openweathermap.org/)
 
 ## How do you run it
+
+### On the smartphone running Sensor Logger
+- Edit the settings for "Data Streaming" according to [this picture](sensorlogger_data_streaming.png) with your URL (EXCLUDING the port), the username and the password obtained by HiveMQ.
+- Edit the setting for "Sampling Frequency" according to [this picture](sensorlogger_sampling_frequency).
+- Hit "Start Recording"
+- 
 ### On the PC running node-red
 - On HiveMQ, create a free account and obtain a cluster serverless ([see image](account_hivemq_1.png)), copy its TLS MQTT URL ([see image](account_hivemq_2.png)), and create credentials ([see image](account_hivemq_3.png)).
 - On OpenWeatherMap, create a free account and obtain an API key ([see image](account_openweathermap.png)).
 - In [node-red](http://127.0.0.1:1880/), import the [flow provided](flow.json)
 - Setup the "MQTT stream" node setup to add a new MQTT server with your URL (including the port), the username and the password obtained by HiveMQ (see [Picture 1](nodered_mqttin_hivemq_1.png), [Picture 2](nodered_mqttin_hivemq_2.png), [Picture 3](nodered_mqttin_hivemq_3.png) and [Picture 4](nodered_mqttin_hivemq_4.png). Be careful that everything is configured as shown in the pictures, download if needed a new TLS CA certificate [isrgrootx1.pem](isrgrootx1.pem).
 - Setup the "Smart Buoy in the map" node with your API key.
-- [Open the UI](http://127.0.0.1:1880/ui)
-
-### On the smartphone running Sensor Logger
-- Edit the settings for "Data Streaming" according to [this picture](sensorlogger_data_streaming.png) with your URL (EXCLUDING the port), the username and the password obtained by HiveMQ.
-- Edit the setting for "Sampling Frequency" according to [this picture](sensorlogger_sampling_frequency).
-- Hit "Start Recording"
+- [Open the UI](http://127.0.0.1:1880/ui) and see the [magic](nodered_ui.png) happen!
 
 ## What happens when you run it
 The data from the IMU and the GPS on the phone are streamed by Sensor Logger to node-red through the MQTT broker HyveMQ.
